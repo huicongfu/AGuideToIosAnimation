@@ -15,6 +15,10 @@
 		87FBDAEF1F49D1D800E037E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87FBDAED1F49D1D800E037E6 /* LaunchScreen.storyboard */; };
 		87FBDAFA1F49D1D900E037E6 /* AGuideToIosAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FBDAF91F49D1D900E037E6 /* AGuideToIosAnimationTests.m */; };
 		87FBDB051F49D1D900E037E6 /* AGuideToIosAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FBDB041F49D1D900E037E6 /* AGuideToIosAnimationUITests.m */; };
+		87FBDB171F49D4D300E037E6 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FBDB161F49D4D300E037E6 /* MainTableViewController.m */; };
+		87FBDB1B1F4B2FBC00E037E6 /* FHCAnimatedPageControlVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FBDB1A1F4B2FBC00E037E6 /* FHCAnimatedPageControlVC.m */; };
+		87FBDB1E1F4B2FEC00E037E6 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FBDB1D1F4B2FEC00E037E6 /* CircleView.m */; };
+		87FBDB211F4B300900E037E6 /* CircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FBDB201F4B300900E037E6 /* CircleLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		87FBDB001F49D1D900E037E6 /* AGuideToIosAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AGuideToIosAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87FBDB041F49D1D900E037E6 /* AGuideToIosAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGuideToIosAnimationUITests.m; sourceTree = "<group>"; };
 		87FBDB061F49D1D900E037E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87FBDB151F49D4D300E037E6 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		87FBDB161F49D4D300E037E6 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		87FBDB191F4B2FBC00E037E6 /* FHCAnimatedPageControlVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHCAnimatedPageControlVC.h; sourceTree = "<group>"; };
+		87FBDB1A1F4B2FBC00E037E6 /* FHCAnimatedPageControlVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHCAnimatedPageControlVC.m; sourceTree = "<group>"; };
+		87FBDB1C1F4B2FEC00E037E6 /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		87FBDB1D1F4B2FEC00E037E6 /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
+		87FBDB1F1F4B300900E037E6 /* CircleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleLayer.h; sourceTree = "<group>"; };
+		87FBDB201F4B300900E037E6 /* CircleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +113,7 @@
 		87FBDADE1F49D1D800E037E6 /* AGuideToIosAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				87FBDB181F4B2F9200E037E6 /* AnimatedCircleDemo */,
 				87FBDAE21F49D1D800E037E6 /* AppDelegate.h */,
 				87FBDAE31F49D1D800E037E6 /* AppDelegate.m */,
 				87FBDAE51F49D1D800E037E6 /* ViewController.h */,
@@ -110,6 +123,8 @@
 				87FBDAED1F49D1D800E037E6 /* LaunchScreen.storyboard */,
 				87FBDAF01F49D1D800E037E6 /* Info.plist */,
 				87FBDADF1F49D1D800E037E6 /* Supporting Files */,
+				87FBDB151F49D4D300E037E6 /* MainTableViewController.h */,
+				87FBDB161F49D4D300E037E6 /* MainTableViewController.m */,
 			);
 			path = AGuideToIosAnimation;
 			sourceTree = "<group>";
@@ -138,6 +153,19 @@
 				87FBDB061F49D1D900E037E6 /* Info.plist */,
 			);
 			path = AGuideToIosAnimationUITests;
+			sourceTree = "<group>";
+		};
+		87FBDB181F4B2F9200E037E6 /* AnimatedCircleDemo */ = {
+			isa = PBXGroup;
+			children = (
+				87FBDB191F4B2FBC00E037E6 /* FHCAnimatedPageControlVC.h */,
+				87FBDB1A1F4B2FBC00E037E6 /* FHCAnimatedPageControlVC.m */,
+				87FBDB1C1F4B2FEC00E037E6 /* CircleView.h */,
+				87FBDB1D1F4B2FEC00E037E6 /* CircleView.m */,
+				87FBDB1F1F4B300900E037E6 /* CircleLayer.h */,
+				87FBDB201F4B300900E037E6 /* CircleLayer.m */,
+			);
+			path = AnimatedCircleDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +303,10 @@
 			files = (
 				87FBDAE71F49D1D800E037E6 /* ViewController.m in Sources */,
 				87FBDAE41F49D1D800E037E6 /* AppDelegate.m in Sources */,
+				87FBDB1E1F4B2FEC00E037E6 /* CircleView.m in Sources */,
+				87FBDB171F49D4D300E037E6 /* MainTableViewController.m in Sources */,
+				87FBDB211F4B300900E037E6 /* CircleLayer.m in Sources */,
+				87FBDB1B1F4B2FBC00E037E6 /* FHCAnimatedPageControlVC.m in Sources */,
 				87FBDAE11F49D1D800E037E6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
